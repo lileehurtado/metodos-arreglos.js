@@ -1,0 +1,56 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#formulario-agregar-tarea {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#entrada-nueva-tarea {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#lista-tareas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#encabezado-tareas {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#encabezado-tareas > div {
+    flex-basis: 48%;
+    text-align: center;
+}
+
+#lista-tareas > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.checkbox-tarea {
+    margin-right: 10px;
+}
+
+#conteo-tareas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.completada {
+    text-decoration: line-through;
+}
